@@ -4,22 +4,11 @@ server:
 spring:
   application:
     name: user-service
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
   datasource:
     url: jdbc:mariadb://localhost:3306/User?characterEncoding=UTF-8&serverTimezone=UTC
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
-    password: '{cipher}356f796fa3f60455605459c2b9109bb2c9cc2ec5f489531f7d1fb76472eff3f5'
-  devtools:
-    livereload:
-      enabled: true
-  redis:
-    host: localhost
-    port: 6379
+    password: '{cipher}AQAWeFyGuYLJ+kqzvtMX19c+/VkDyJVvjFLTjsqHWY3iFK6ciHYtkQBDEOxfCxG+FyvjB7loeJ5vk3bFPOeOROHGgkg8I9hzT6qzAY60d/danehQR7S+QJjyeOe5bkqVfXWEIMgLKJ2/x4Dguw4lwjamFOfWLrBPEDcTK4f8db4ho+gTuRbZiB03LXYfM1u+zRe7qali+32RsZEHnj9DFCk/4KRuZ30jExb7KlscIWI3VAchklzcNXRm1RbvB6wScbn30bH4WJEEP0cNz6aZ4oq7E5cQRicfLMdthP9rnR0WjjtgGLE4GvAiFqcrTgAbWfizM2qPKar04dMdghuLAqs9KeqG6Sas9MeEKQ7Rb1XvxsfkaRXRNDoj6J7rpQSVDZ4='
 
   jpa:
     hibernate:
